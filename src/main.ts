@@ -9,10 +9,6 @@ import { handlerNotesCreate, handlerNotesGet } from "./api/notes.js";
 import { handlerUsersCreate, handlerUsersGet } from "./api/users.js";
 import process from "node:process";
 
-function myUnusedFunction() {
-  
-}
-
 const __dirname = path.resolve();
 
 if (!config.api.port) {
